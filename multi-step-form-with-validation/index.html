@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <form id="myform">
+
+      <fieldset id="fs1">
+        <legend>step1 - basic info</legend>
+        <input type="text" placeholder="fname" required>
+        <span class="error"></span>
+        <input type="text" placeholder="lname" required>
+        <span class="error"></span>
+        <button class="nextBtn" type="button">next</button>
+      </fieldset>
+
+      <fieldset id="fs2">
+        <legend>step2 - contact info</legend>
+        <input type="email" placeholder="email" required>
+        <span class="error"></span>
+        <input type="text" placeholder="phone: 09" required>
+        <span class="error"></span>
+        <button class="previousBtn" type="button">previous</button>
+        <button class="nextBtn" type="button">next</button>
+      </fieldset>
+
+      <fieldset id="fs3">
+        <legend>step3 - reception info</legend>
+        <select class="" name="">
+          <option value="1">tamin</option>
+          <option value="2">noinsurance</option>
+          <option value="3">khadamatd</option>
+        </select>
+        <select>
+          <option value="1">d1</option>
+          <option value="2">d2</option>
+          <option value="3">d3</option>
+        </select>
+        <input type="number" required min="0" max="100">
+        <span class="error"></span>
+        <button class="previousBtn" type="button">previous</button>
+        <button id="submitBtn" type="submit">add</button>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>

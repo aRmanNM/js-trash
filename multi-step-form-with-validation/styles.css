@@ -1,0 +1,23 @@
+body {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+fieldset {
+  width: 200px;
+}
+
+fieldset input{
+    display: block;
+    margin: 10px 10px 10px 0px;
+}
+
+fieldset select{
+    display: block;
+    margin: 10px 10px 10px 0px;
+}
+
+fieldset button{
+    display: block;
+    margin: 10px 10px 10px 0px;
+}
